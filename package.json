@@ -1,0 +1,29 @@
+{
+  "name": "projeto-cypress-receiv",
+  "version": "1.0.0",
+  "description": "Repositório do projeto para o processo seletivo da receiv",
+  "main": "src/index.html",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "e2e": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Testing",
+    "Cypress.io"
+  ],
+  "author": "Erick Nascimento <erick_mendes@live.com>",
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.13.0"
+  },
+  "dependencies": {
+    "faker-br": "^0.4.1"
+  }
+}
